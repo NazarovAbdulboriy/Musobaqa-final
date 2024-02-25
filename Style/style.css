@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1246px;
+
+    margin: 0 auto;
+}
+
+.wrapper_groupes {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+
+    align-items: center;
+    margin-left: 230px;
+}
+
+.groupes_text {
+    text-decoration: none;
+    /* desk mob 12 */
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.groupes_text:hover {
+    color: #F57520;
+}
+
+.groupes_text2 {
+    text-decoration: none;
+    /* desk mob 12 */
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.groupes_text2:hover {
+    color: #F57520;
+}
+
+.groupes_text3 {
+    text-decoration: none;
+    /* desk mob 12 */
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.groupes_text3:hover {
+    color: #F57520;
+}
+
+.groupes_text4 {
+    text-decoration: none;
+    /* desk mob 12 */
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.groupes_text4:hover {
+    color: #F57520;
+}
+
+.groupes_text5 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.groupes_text5:hover {
+    color: #F57520;
+}
+
+.groupes_text6 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.groupes_text6:hover {
+    color: #F57520;
+}
+
+.wraper {
+    display: flex;
+    padding: 28px;
+
+}
+
+.fotos {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 168px;
+    height: 20px;
+    margin-left: 74px;
+    margin-top: 10px;
+
+
+}
+
+.foto {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-top: 13px;
+    gap: 24px;
+}
+
+.motor {
+    position: absolute;
+    right: 1px;
+
+}
+
+
+
+.groups {
+    /* Электро велосипеды */
+    position: absolute;
+    width: 679px;
+    height: 227px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 48px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.groups2 {
+    position: absolute;
+    top: 448px;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 1%;
+    text-align: left;
+
+}
+
+.подробнее {
+    position: absolute;
+    width: 180px;
+    height: 52px;
+    top: 600px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.подробнее:hover {
+    background-color: rgb(245, 117, 32);
+}
+
+.card {
+    position: absolute;
+    background: rgb(16, 16, 16);
+    top: 980px;
+    right: 900px;
+    width: 747px;
+    height: 212px;
+    /* desk mob 24 */
+    color: rgb(179, 179, 179);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 1%;
+    text-align: left;
+    padding: 54px 319px;
+}
+
+.card2 {
+    position: absolute;
+    background: rgb(52, 49, 45);
+    right: 500px;
+    top: 980px;
+    width: 427px;
+    height: 212px;
+    /* desk mob 24 */
+    color: rgb(179, 179, 179);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-left: 700px;
+    padding: 68px 57px;
+}
+
+.card3 {
+    position: absolute;
+    background: rgb(107, 102, 102);
+    top: 980px;
+    left: 300px;
+    width: 520px;
+    height: 212px;
+    color: rgb(179, 179, 179);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-left: 700px;
+    padding: 68px 48px;
+}
+
+.katalog {
+    background: rgb(179, 179, 179);
+    width: 1520px;
+    height: 5602px;
+
+}
+
+.katalog_text {
+    position: absolute;
+    top: 1300px;
+    color: rgb(16, 16, 16);
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.box {
+    position: absolute;
+    width: 1280px;
+    height: 300px;
+    border-radius: 10px;
+    background: rgb(245, 117, 32);
+    top: 1400px;
+    right: 130px;
+    background-image: url(/Rasmlar/pngwing.png);
+    background-repeat: no-repeat;
+    padding: 0px 393px;
+    background-position: 393px;
+}
+
+.velosiped {
+
+    top: 1500px;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: left;
+}
+
+.group {
+    display: flex;
+}
+
+.box2 {
+    position: absolute;
+    width: 00px;
+    height: 458px;
+    border-radius: 10px;
+    background: rgb(16, 16, 16);
+    top: 1716px;
+    background-image: url(/Rasmlar/pngwing2.png);
+    background-repeat: no-repeat;
+    padding: 0px 393px;
+    background-position: 393px;
+}
+
+.trassa {
+    position: absolute;
+    top: 2400px;
+    position: absolute;
+    color: rgb(16, 16, 16);
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: center;
+    margin-left: 700px;
+
+}
+
+.box3 {
+    position: absolute;
+    width: 868.9px;
+    height: 586px;
+    /* bl */
+    background: rgb(16, 16, 16);
+    top: 2550px;
+    padding: 85px 182px;
+}
+
+.box3_text {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: left;
+}
+
+.box3_text2 {
+    /* desk mob text 16 */
+    color: rgb(229, 229, 229);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box3_text3 {
+    color: rgb(229, 229, 229);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.boxes {
+    display: flex;
+}
+
+.rectangle {
+    /* Rectangle 168 */
+    position: absolute;
+    width: 851.1px;
+    height: 586px;
+    left: 868.9px;
+    right: 0;
+    top: 2556px;
+    bottom: -2326px;
+}
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 370px;
+    left: 0;
+    right: 0;
+    top: 3232px;
+    bottom: 0;
+    color: white;
+    background-color: black;
+}
